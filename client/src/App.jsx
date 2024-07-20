@@ -1,10 +1,11 @@
+import UploadFile from './components/UploadFile/UploadFile';
 import { GlobalStyles } from './styles/GlobalStyles';
 
 const App = () => {
 	return (
 		<>
 			<GlobalStyles />
-			<h1>REACT OK</h1>
+			<UploadFile />
 		</>
 	);
 };
