@@ -17,7 +17,7 @@ const UploadFile = () => {
 			</form>
 			{preview && <img src={preview} alt='preview' />}
 		</>
-	);
+	);	
 };
 
 const handleFileChange = async (event, setFile, setPreview) => {
